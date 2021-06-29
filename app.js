@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const userRouter = require('./routers/userRouter');
 const orderRouter = require('./routers/orderRouter');
+const compression = require('compression'); 
 
 const app = express();
 
